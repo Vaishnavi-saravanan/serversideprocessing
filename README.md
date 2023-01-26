@@ -105,7 +105,7 @@ Publish the website in the given URL.
 </html>
 
 # views.py
-
+```
 from django.shortcuts import render
 def rectarea(request):
     context={}
@@ -125,9 +125,9 @@ def rectarea(request):
         context['b'] = b
         print('Area=',area)
     return render(request,'myapp/math.html',context)
-
+```
 # urls.py
-
+```
 """server URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -151,7 +151,7 @@ urlpatterns = [
     path('areaofrectangle/',views.rectarea,name="areaofrectangle"),
     path('',views.rectarea,name="areaofrectangleroot")
 ]
-
+```
 ## OUTPUT:
 
 ![](./server.png)
