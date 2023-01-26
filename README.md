@@ -24,7 +24,7 @@ Publish the website in the given URL.
 
 # PROGRAM :
 # math.py
-
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -103,7 +103,7 @@ Publish the website in the given URL.
     
 </body>
 </html>
-
+```
 # views.py
 ```
 from django.shortcuts import render
